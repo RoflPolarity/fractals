@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jmathplot">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/groovylab-preview/groovylab-preview/lib/jmathplot.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/groovylab-preview/groovylab-preview/lib/jmathplot.jar!/" />
+    </SOURCES>
+  </library>
+</component>
