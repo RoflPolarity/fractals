@@ -1,7 +1,14 @@
 import java.util.Random;
 public class Terrain {
-    private double SEED = 0;
-    private double h = 50;
+    private double SEED;
+    private double mnoz;
+    private double h = -(1+SEED*mnoz);
+
+    public Terrain(double seed, double h){
+        this.SEED = seed;
+        this.mnoz = h;
+    }
+
     public double[][] getMap() {
         final int DATA_SIZE = 9;
         double[][] data = new double[DATA_SIZE][DATA_SIZE];
